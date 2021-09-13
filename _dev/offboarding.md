@@ -113,8 +113,8 @@ If you have been following this guide, all Symfony apps will be held
 within the `~/Sites` directory. To uninstall the app from your computer
 you will need to:
 
-> -   Delete the app from the `~/Sites` directory
-> -   Remove the database and user from MySQL.
+1. Delete the app from the `~/Sites` directory
+1. Remove the database and user from MySQL.
 
 To remove the app from the command line, enter the following command
 where `app_name` is the name of the app directory.

@@ -1,3 +1,10 @@
+---
+title: Sphinx (Deprecated)
+parent: Writing Documentation
+layout: default
+nav_order: 999
+---
+
 # Sphinx
 
 [Sphinx](http://www.sphinx-doc.org/en/master/) is our documentation
