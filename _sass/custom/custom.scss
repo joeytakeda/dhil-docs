@@ -1,7 +1,6 @@
 @import 'mixins';
 
 // Override text color
-
 body{
   color: darken($body-text-color, 15%);
 }
@@ -17,6 +16,28 @@ blockquote{
   border-left: 0.2em solid rgba($purple-000, 0.33);
 }
 
+// Images
+
+img{
+  border: 2px solid #efefef;
+}
+
+// Tables
+
+table{
+   border-collapse: collapse;
+}
+
+td, th{
+  text-align:left;
+  min-width: unset;
+  font-size: 0.925rem!important;
+}
+
+tbody th:first-child{
+  border-right: 1px solid #efefef;
+  padding-right: 1rem;
+}
 
 // Custom HTML blocks
 
@@ -37,10 +58,9 @@ blockquote{
 
 .sidebar{
   @include callout('NB');
-
 }
 
-// Debugging message 
+// Debugging message
 .debug{
   position:absolute;
   width:80vw;
@@ -51,6 +71,3 @@ blockquote{
   color:black;
   transform: translate(-50%, -50%)
 }
-
-
-
